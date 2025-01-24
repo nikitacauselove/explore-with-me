@@ -1,5 +1,6 @@
 package ru.practicum.server.endpointhit;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -12,7 +13,6 @@ import ru.practicum.dto.ViewStatisticsDto;
 import ru.practicum.server.endpointhit.dto.EndpointHitMapper;
 import ru.practicum.server.endpointhit.model.EndpointHit;
 
-import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.util.List;
 
