@@ -1,7 +1,7 @@
 package com.example.main.repository;
 
 import com.example.main.repository.model.Event;
-import com.example.main.repository.model.EventStatus;
+import com.example.api.dto.enums.EventStatus;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

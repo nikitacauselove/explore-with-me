@@ -1,10 +1,10 @@
 package com.example.main.mapper;
 
-import com.example.main.dto.EventRequestStatusUpdateResult;
-import com.example.main.dto.ParticipationRequestDto;
+import com.example.api.dto.EventRequestStatusUpdateResult;
+import com.example.api.dto.ParticipationRequestDto;
 import com.example.main.repository.model.Event;
 import com.example.main.repository.model.Request;
-import com.example.main.repository.model.RequestStatus;
+import com.example.api.dto.enums.RequestStatus;
 import com.example.main.repository.model.User;
 import org.mapstruct.Mapper;
 

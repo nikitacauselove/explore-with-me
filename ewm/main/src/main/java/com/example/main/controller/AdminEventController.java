@@ -1,13 +1,13 @@
 package com.example.main.controller;
 
-import com.example.main.dto.EventFullDto;
-import com.example.main.dto.UpdateEventAdminRequest;
+import com.example.api.dto.EventFullDto;
+import com.example.api.dto.UpdateEventAdminRequest;
 import com.example.main.mapper.EventMapper;
 import com.example.main.repository.model.Event;
-import com.example.main.repository.model.EventStatus;
+import com.example.api.dto.enums.EventStatus;
 import com.example.main.service.EventService;
-import com.example.main.util.OffsetBasedPageRequest;
-import com.example.main.util.validation.RangeStartBeforeRangeEnd;
+import com.example.main.repository.OffsetBasedPageRequest;
+import com.example.api.dto.constraint.RangeStartBeforeRangeEnd;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
@@ -26,9 +26,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.example.main.util.Constant.PAGE_DEFAULT_FROM;
-import static com.example.main.util.Constant.PAGE_DEFAULT_SIZE;
-import static com.example.main.util.Constant.TIME_PATTERN;
+import static com.example.api.Constant.PAGE_DEFAULT_FROM;
+import static com.example.api.Constant.PAGE_DEFAULT_SIZE;
+import static com.example.api.Constant.TIME_PATTERN;
 
 @RestController
 @RequestMapping("/admin/events")

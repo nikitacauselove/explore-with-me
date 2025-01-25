@@ -1,16 +1,16 @@
 package com.example.main.mapper;
 
+import com.example.api.dto.EventDtoWithViews;
+import com.example.api.dto.EventFullDto;
+import com.example.api.dto.EventShortDto;
+import com.example.api.dto.NewEventDto;
+import com.example.api.dto.UpdateEventAdminRequest;
+import com.example.api.dto.UpdateEventUserRequest;
 import com.example.main.client.StatisticsClient;
-import com.example.main.clientDto.ViewStatisticsDto;
-import com.example.main.dto.EventDtoWithViews;
-import com.example.main.dto.EventFullDto;
-import com.example.main.dto.EventShortDto;
-import com.example.main.dto.NewEventDto;
-import com.example.main.dto.UpdateEventAdminRequest;
-import com.example.main.dto.UpdateEventUserRequest;
+import com.example.main.client.clientDto.ViewStatisticsDto;
 import com.example.main.repository.EventRepository;
 import com.example.main.repository.model.Event;
-import com.example.main.repository.model.EventStatus;
+import com.example.api.dto.enums.EventStatus;
 import com.example.main.repository.model.User;
 import com.example.main.service.CategoryService;
 import org.mapstruct.AfterMapping;

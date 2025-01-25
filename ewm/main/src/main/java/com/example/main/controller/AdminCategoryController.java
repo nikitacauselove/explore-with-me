@@ -1,7 +1,7 @@
 package com.example.main.controller;
 
-import com.example.main.dto.CategoryDto;
-import com.example.main.dto.NewCategoryDto;
+import com.example.api.dto.CategoryDto;
+import com.example.api.dto.NewCategoryDto;
 import com.example.main.mapper.CategoryMapper;
 import com.example.main.repository.model.Category;
 import com.example.main.service.CategoryService;

@@ -1,7 +1,7 @@
 package com.example.main.mapper;
 
-import com.example.main.dto.CategoryDto;
-import com.example.main.dto.NewCategoryDto;
+import com.example.api.dto.CategoryDto;
+import com.example.api.dto.NewCategoryDto;
 import com.example.main.repository.model.Category;
 import org.mapstruct.Mapper;
 

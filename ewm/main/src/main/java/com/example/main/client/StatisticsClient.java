@@ -1,7 +1,7 @@
 package com.example.main.client;
 
-import com.example.main.clientDto.EndpointHitDto;
-import com.example.main.clientDto.ViewStatisticsDto;
+import com.example.main.client.clientDto.EndpointHitDto;
+import com.example.main.client.clientDto.ViewStatisticsDto;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static com.example.main.clientDto.EndpointHitDto.DATE_TIME_FORMATTER;
+import static com.example.main.client.clientDto.EndpointHitDto.DATE_TIME_FORMATTER;
 
 @RequiredArgsConstructor
 @Service

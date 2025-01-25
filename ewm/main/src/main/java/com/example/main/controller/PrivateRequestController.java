@@ -1,6 +1,6 @@
 package com.example.main.controller;
 
-import com.example.main.dto.ParticipationRequestDto;
+import com.example.api.dto.ParticipationRequestDto;
 import com.example.main.mapper.RequestMapper;
 import com.example.main.repository.model.Event;
 import com.example.main.repository.model.Request;

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-import static com.example.main.util.Constant.TIME_PATTERN;
+import static com.example.api.Constant.TIME_PATTERN;
 
 @Data
 @AllArgsConstructor

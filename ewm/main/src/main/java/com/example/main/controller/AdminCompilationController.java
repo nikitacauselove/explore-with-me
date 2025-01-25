@@ -1,8 +1,8 @@
 package com.example.main.controller;
 
-import com.example.main.dto.CompilationDto;
-import com.example.main.dto.NewCompilationDto;
-import com.example.main.dto.UpdateCompilationRequest;
+import com.example.api.dto.CompilationDto;
+import com.example.api.dto.NewCompilationDto;
+import com.example.api.dto.UpdateCompilationRequest;
 import com.example.main.mapper.CompilationMapper;
 import com.example.main.repository.model.Compilation;
 import com.example.main.service.CompilationService;

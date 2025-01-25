@@ -14,7 +14,7 @@
         <module>stats</module>
     </modules>
 
-    <groupId>ru.practicum</groupId>
+    <groupId>com.example</groupId>
 	<artifactId>explore-with-me</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -24,20 +24,15 @@
 
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<mapstruct-processor.version>1.6.3</mapstruct-processor.version>
+		<springdoc-openapi-starter-webmvc-ui.version>2.8.1</springdoc-openapi-starter-webmvc-ui.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>ru.practicum</groupId>
-				<artifactId>client</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>ru.practicum</groupId>
-				<artifactId>dto</artifactId>
-				<version>${project.version}</version>
+				<groupId>com.example</groupId>
+				<artifactId>api</artifactId>
+				<version>${version}</version>
 			</dependency>
 
 			<dependency>
@@ -50,6 +45,12 @@
 				<groupId>org.mapstruct</groupId>
 				<artifactId>mapstruct-processor</artifactId>
 				<version>${mapstruct-processor.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+				<version>${springdoc-openapi-starter-webmvc-ui.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

@@ -1,8 +1,8 @@
 package com.example.main.mapper;
 
-import com.example.main.dto.FullCommentDto;
-import com.example.main.dto.NewCommentDto;
-import com.example.main.dto.UpdateCommentDto;
+import com.example.api.dto.FullCommentDto;
+import com.example.api.dto.NewCommentDto;
+import com.example.api.dto.UpdateCommentDto;
 import com.example.main.repository.model.Comment;
 import com.example.main.repository.model.Event;
 import com.example.main.repository.model.User;

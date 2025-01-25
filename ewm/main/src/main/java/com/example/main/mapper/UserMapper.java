@@ -1,7 +1,7 @@
 package com.example.main.mapper;
 
-import com.example.main.dto.NewUserRequest;
-import com.example.main.dto.UserDto;
+import com.example.api.dto.NewUserRequest;
+import com.example.api.dto.UserDto;
 import com.example.main.repository.model.User;
 import org.mapstruct.Mapper;
 

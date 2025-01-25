@@ -1,6 +1,6 @@
 package com.example.main.mapper;
 
-import com.example.main.dto.LocationDto;
+import com.example.api.dto.LocationDto;
 import com.example.main.repository.model.Location;
 import org.mapstruct.Mapper;
 

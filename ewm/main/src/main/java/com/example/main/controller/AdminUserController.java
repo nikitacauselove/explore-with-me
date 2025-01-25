@@ -1,11 +1,11 @@
 package com.example.main.controller;
 
-import com.example.main.dto.NewUserRequest;
-import com.example.main.dto.UserDto;
+import com.example.api.dto.NewUserRequest;
+import com.example.api.dto.UserDto;
 import com.example.main.mapper.UserMapper;
 import com.example.main.repository.model.User;
 import com.example.main.service.UserService;
-import com.example.main.util.OffsetBasedPageRequest;
+import com.example.main.repository.OffsetBasedPageRequest;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
@@ -25,8 +25,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.example.main.util.Constant.PAGE_DEFAULT_FROM;
-import static com.example.main.util.Constant.PAGE_DEFAULT_SIZE;
+import static com.example.api.Constant.PAGE_DEFAULT_FROM;
+import static com.example.api.Constant.PAGE_DEFAULT_SIZE;
 
 @RestController
 @RequestMapping("/admin/users")

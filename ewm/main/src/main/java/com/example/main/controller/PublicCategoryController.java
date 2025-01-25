@@ -1,9 +1,9 @@
 package com.example.main.controller;
 
-import com.example.main.dto.CategoryDto;
+import com.example.api.dto.CategoryDto;
 import com.example.main.mapper.CategoryMapper;
 import com.example.main.service.CategoryService;
-import com.example.main.util.OffsetBasedPageRequest;
+import com.example.main.repository.OffsetBasedPageRequest;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
 import lombok.RequiredArgsConstructor;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.example.main.util.Constant.PAGE_DEFAULT_FROM;
-import static com.example.main.util.Constant.PAGE_DEFAULT_SIZE;
+import static com.example.api.Constant.PAGE_DEFAULT_FROM;
+import static com.example.api.Constant.PAGE_DEFAULT_SIZE;
 
 @RestController
 @RequestMapping("/categories")
